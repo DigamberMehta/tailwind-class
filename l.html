@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="bg-[url(https://static.vecteezy.com/system/resources/previews/007/950/967/large_2x/hand-holding-young-corn-for-planting-in-garden-with-sunrise-background-free-photo.jpg)] h-[100vh] object-contain">
+      <nav class="bg-[#4d148c] border-gray-200">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Fedex</span>
+          </a>
+          <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-dropdown" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto bg-[#4d148c]" id="navbar-dropdown">
+            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-[#4d148c] text-white">
+              <li>
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-white rounded-sm md:hover:bg-transparent md:border-0 md:p-0 md:w-auto">Dropdown <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                </svg>
+                </button>
+                <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44">
+                  <ul class="py-2 text-sm text-white" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a href="#" class="block px-4 py-2">Dashboard</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2">Settings</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2">Earnings</a>
+                    </li>
+                  </ul>
+                  <div class="py-1">
+                    <a href="#" class="block px-4 py-2 text-sm text-white">Sign out</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 text-white rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Services</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 text-white rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 text-white rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="login flex justify-between">
+            <div class="text-white mr-2">
+              Login/Singup &nbsp;
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="search text-white ml-6">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="text-black text-[52px] flex justify-center items-center mt-[150px]">
+        <span>SHIP, MANAGE , TRACK</span>
+      </div>
+      <div class="flex justify-center items-center mt-[50px]">
+        <div class="flex flex-col items-center justify-center w-32 h-32 bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="text-3xl"><i class="fa-solid fa-calculator"></i></div>
+          <span class="mt-2 text-sm font-medium text-gray-700">RATE & SHIP</span>
+        </div>
+        <div class="flex flex-col items-center justify-center w-48 h-48 bg-[#4d148c] shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="text-white text-4xl"><i class="fa-solid fa-truck-fast"></i></div>
+          <span class="mt-2 text-sm font-medium text-white">TRACK</span>
+        </div>
+        <div class="flex flex-col items-center justify-center w-32 h-32 bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="text-3xl"><i class="fa-solid fa-location-dot"></i></div>
+          <span class="mt-2 text-sm font-medium text-gray-700">LOCATIONS</span>
+        </div>
+      </div>
+      <div class="search flex justify-center items-center mt-[50px]">
+        <input type="text" class="w-[400px] h-[50px] bg-white outline-none mr-8 pl-4" placeholder="Search">
+        <button class="w-[100px] h-[50px] bg-amber-500">TRACK</button>
+      </div>
+    </div>
+  </body>
+</html>
