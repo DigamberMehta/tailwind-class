@@ -18,30 +18,56 @@
   *{
     box-sizing: border-box;
   }
+  
 </style>
 <body>
   <div class="max-w-[100%]">
           <div class="flex items-center justify-between px-6 py-3 border-b border-gray-300 bg-white">
+
+          
+
+            <div class="mobile-nav flex md:hidden justify-center items-center">
+
+              <div class="mr-3">
+                <i class="fa-solid fa-bars"></i>
+                  
+              </div>
+
+              <div>
+                <a href="#" class="hover:underline">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35"></path>
+                      <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                  </svg>
+              </a>
+              </div>
+
+          
+
+            </div>
           
             <div class="flex items-center space-x-6">
-                <div class="p-1 border border-dashed border-black">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo" class="h-6">
+                <div class="p-1 border border-dashed border-black flex justify-center items-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo" class="h-6 mr-3">
+
+                    <p class="flex md:hidden text-sm text-gray-700">
+                      Microsoft
+                    </p>
                 </div>
-                <nav class="flex space-x-4 text-gray-700 text-sm">
+                <nav class="md:flex space-x-4 text-gray-700 text-sm menu-items hidden">
                     <a href="#" class="hover:underline">Microsoft 365</a>
                     <a href="#" class="hover:underline">Teams</a>
                     <a href="#" class="hover:underline">Copilot</a>
                     <a href="#" class="hover:underline">Windows</a>
                     <a href="#" class="hover:underline">Surface</a>
-                    <a href="#" class="hover:underline">Xbox</a>
-                    <a href="#" class="hover:underline">Support</a>
+               
                 </nav>
             </div>
 
           
             <div class="flex items-center space-x-4 text-gray-700">
-                <a href="#" class="hover:underline text-sm">All Microsoft</a>
-                <a href="#" class="hover:underline">
+                <a href="#" class="hover:underline text-sm hidden md:flex">All Microsoft</a>
+                <a href="#" class="hover:underline hidden md:flex">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35"></path>
                         <circle cx="10.5" cy="10.5" r="7.5"></circle>
@@ -49,7 +75,7 @@
                 </a>
               
                 <a href="#" class="hover:underline flex items-center">
-                    <span class="text-sm">Sign in</span>
+                    <span class="text-sm hidden md:flex">Sign in</span>
                     <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="12" cy="8" r="4"></circle>
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"></path>
@@ -80,11 +106,11 @@
 
 
           <div class="relative h-[600px] flex justify-center items-center mt-10">
-            <div class="absolute top-1/2 left-1/2 h-[600px]  w-[85%] bg-[url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Search-bar?scl=1')] bg-cover bg-center transform -translate-x-1/2 -translate-y-1/2 z-10">
+            <div class="absolute top-1/2 left-1/2 h-[600px]  w-[85%] bg-[url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Search-bar?scl=1')] bg-cover bg-center transform -translate-x-1/2 -translate-y-1/2 z-10 rounded-3xl">
             </div>
-            <div class="absolute top-1/2 left-1/2 h-[500px] w-[80%] bg-[url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-PC-open-with-Start-menu-on-the-screen?scl=1')] bg-cover bg-center transform -translate-x-1/2 -translate-y-1/2 z-20">
+            <div class="absolute top-1/2 left-1/2 h-[500px] w-[80%] bg-[url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-PC-open-with-Start-menu-on-the-screen?scl=1')] bg-cover bg-center transform -translate-x-1/2 -translate-y-1/2 z-20 rounded-3xl">
             </div>
-            <div class="absolute top-1/2 left-1/2 h-[400px] w-[75%] bg-[url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Search-bar?scl=1')] bg-cover bg-center transform -translate-x-1/2 -translate-y-1/2 z-30">
+            <div class="absolute top-1/2 left-1/2 h-[400px] w-[75%] bg-[url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Search-bar?scl=1')] bg-cover bg-center transform -translate-x-1/2 -translate-y-1/2 z-30 rounded-3xl">
             </div>
         </div>
 
